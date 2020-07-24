@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4782648424CA7CA000A35294 /* 情歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4782648324CA7C9F00A35294 /* 情歌.mp3 */; };
 		47C6836124C924CB009C66C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6836024C924CB009C66C2 /* AppDelegate.swift */; };
 		47C6836324C924CB009C66C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6836224C924CB009C66C2 /* SceneDelegate.swift */; };
 		47C6836524C924CB009C66C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6836424C924CB009C66C2 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		47C6836D24C924D6009C66C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C6836B24C924D6009C66C2 /* LaunchScreen.storyboard */; };
 		47C6837824C924D7009C66C2 /* musicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6837724C924D7009C66C2 /* musicPlayerTests.swift */; };
 		47C6838324C924D7009C66C2 /* musicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6838224C924D7009C66C2 /* musicPlayerUITests.swift */; };
+		47C6839124C94340009C66C2 /* 漂洋過海來看你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47C6839024C9433E009C66C2 /* 漂洋過海來看你.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4782648324CA7C9F00A35294 /* 情歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "情歌.mp3"; path = "../../../Downloads/情歌.mp3"; sourceTree = "<group>"; };
 		47C6835D24C924CB009C66C2 /* musicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C6836024C924CB009C66C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47C6836224C924CB009C66C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		47C6837E24C924D7009C66C2 /* musicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C6838224C924D7009C66C2 /* musicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlayerUITests.swift; sourceTree = "<group>"; };
 		47C6838424C924D7009C66C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C6839024C9433E009C66C2 /* 漂洋過海來看你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "漂洋過海來看你.mp3"; path = "../../漂洋過海來看你.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		47C6835F24C924CB009C66C2 /* musicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				4782648324CA7C9F00A35294 /* 情歌.mp3 */,
+				47C6839024C9433E009C66C2 /* 漂洋過海來看你.mp3 */,
 				47C6836024C924CB009C66C2 /* AppDelegate.swift */,
 				47C6836224C924CB009C66C2 /* SceneDelegate.swift */,
 				47C6836424C924CB009C66C2 /* ViewController.swift */,
@@ -231,8 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4782648424CA7CA000A35294 /* 情歌.mp3 in Resources */,
 				47C6836D24C924D6009C66C2 /* LaunchScreen.storyboard in Resources */,
 				47C6836A24C924D6009C66C2 /* Assets.xcassets in Resources */,
+				47C6839124C94340009C66C2 /* 漂洋過海來看你.mp3 in Resources */,
 				47C6836824C924CB009C66C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
